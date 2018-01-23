@@ -2,7 +2,7 @@
 
 language: node_js
 node_js:
-  - stable
+  - lts
 
-inslall: npm install 
+inslall: npm install
 script: make lint test
