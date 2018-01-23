@@ -1,0 +1,131 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@4.1.2
+3 info using node@v6.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Alexandr/development/hexlet/brain-games',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Alexandr/.npm correctMkdir not in flight; initializing
+10 info lifecycle @lotoss/brain-games@0.0.1~prepublish: @lotoss/brain-games@0.0.1
+11 silly lifecycle @lotoss/brain-games@0.0.1~prepublish: no script for prepublish, continuing
+12 info lifecycle @lotoss/brain-games@0.0.1~prepare: @lotoss/brain-games@0.0.1
+13 silly lifecycle @lotoss/brain-games@0.0.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package.tgz',
+14 verbose tar pack   '/Users/Alexandr/development/hexlet/brain-games' ]
+15 verbose tarball /Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package.tgz
+16 verbose folder /Users/Alexandr/development/hexlet/brain-games
+17 verbose addLocalTarball adding from inside cache /Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package.tgz
+18 verbose correctMkdir /Users/Alexandr/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd @lotoss/brain-games@0.0.1
+20 verbose afterAdd /Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/Alexandr/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package/package.json written
+23 silly publish { name: '@lotoss/brain-games',
+23 silly publish   version: '0.0.1',
+23 silly publish   description: '[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)',
+23 silly publish   main: 'index.js',
+23 silly publish   scripts:
+23 silly publish    { 'babel-node': 'babel-node',
+23 silly publish      build: 'NODE_ENV=production babel src --out-dir dist --sourse-maps inline',
+23 silly publish      test: 'echo "No test specified" && exit 0',
+23 silly publish      prepublishOnly: 'npm run build',
+23 silly publish      eslint: 'eslint' },
+23 silly publish   bin: { 'brain-games': 'dist/bin/brain-games.js' },
+23 silly publish   files: [ 'dist' ],
+23 silly publish   author:
+23 silly publish    { name: 'Oleksandr',
+23 silly publish      email: 'prokopenko.alexander.design@gmail.com' },
+23 silly publish   license: 'ISC',
+23 silly publish   devDependencies:
+23 silly publish    { 'babel-cli': '^6.26.0',
+23 silly publish      'babel-core': '^6.26.0',
+23 silly publish      'babel-eslint': '^8.2.1',
+23 silly publish      'babel-preset-env': '^1.6.1',
+23 silly publish      'babel-preset-stage-0': '^6.24.1',
+23 silly publish      eslint: '^4.16.0',
+23 silly publish      'eslint-config-airbnb-base': '^12.1.0',
+23 silly publish      'eslint-plugin-flowtype': '^2.41.0',
+23 silly publish      'eslint-plugin-import': '^2.8.0',
+23 silly publish      'eslint-plugin-jest': '^21.7.0' },
+23 silly publish   dependencies: { 'readline-sync': '^1.4.7' },
+23 silly publish   readme: '# Brain Games\n\n[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)\n[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)\n',
+23 silly publish   readmeFilename: 'README.md',
+23 silly publish   gitHead: 'a1a398631511c5b3dfbe21053aca69cfdb642fc1',
+23 silly publish   _id: '@lotoss/brain-games@0.0.1',
+23 silly publish   _shasum: '6a768ab51731e0dfe1f34242103d13165331bea1',
+23 silly publish   _from: '.' }
+24 info lifecycle @lotoss/brain-games@0.0.1~prepublishOnly: @lotoss/brain-games@0.0.1
+25 verbose lifecycle @lotoss/brain-games@0.0.1~prepublishOnly: unsafe-perm in lifecycle true
+26 verbose lifecycle @lotoss/brain-games@0.0.1~prepublishOnly: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Alexandr/development/hexlet/brain-games/node_modules/.bin:/usr/local/bin/mongodb/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/Users/Alexandr/.rvm/gems/ruby-2.3.0/bin:/Users/Alexandr/.rvm/gems/ruby-2.3.0@global/bin:/Users/Alexandr/.rvm/rubies/ruby-2.3.0/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/opt/ImageMagick/bin:/Users/Alexandr/.rvm/bin:/Users/Alexandr/.rvm/bin
+27 verbose lifecycle @lotoss/brain-games@0.0.1~prepublishOnly: CWD: .
+28 silly lifecycle @lotoss/brain-games@0.0.1~prepublishOnly: Args: [ '-c', 'npm run build' ]
+29 silly lifecycle @lotoss/brain-games@0.0.1~prepublishOnly: Returned: code: 0  signal: null
+30 verbose getPublishConfig undefined
+31 silly mapToRegistry name @lotoss/brain-games
+32 silly mapToRegistry scope (from package name) @lotoss
+33 verbose mapToRegistry no registry URL found in name for scope @lotoss
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: '@lotoss/brain-games',
+36 silly mapToRegistry   scope: '@lotoss',
+36 silly mapToRegistry   escapedName: '@lotoss%2fbrain-games',
+36 silly mapToRegistry   name: '@lotoss/brain-games',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/@lotoss%2fbrain-games
+38 verbose publish registryBase https://registry.npmjs.org/
+39 silly publish uploading /Users/Alexandr/.npm/@lotoss/brain-games/0.0.1/package.tgz
+40 verbose request uri https://registry.npmjs.org/@lotoss%2fbrain-games
+41 verbose request sending authorization for write operation
+42 info attempt registry request try #1 at 17:45:44
+43 verbose request using bearer token for auth
+44 verbose request id 28fb19d9e9c726bf
+45 http request PUT https://registry.npmjs.org/@lotoss%2fbrain-games
+46 http 403 https://registry.npmjs.org/@lotoss%2fbrain-games
+47 verbose headers { 'content-type': 'application/json',
+47 verbose headers   'cache-control': 'max-age=0',
+47 verbose headers   'content-length': '91',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Tue, 23 Jan 2018 15:45:46 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-fra19121-FRA',
+47 verbose headers   'x-cache': 'MISS',
+47 verbose headers   'x-cache-hits': '0',
+47 verbose headers   'x-timer': 'S1516722345.060707,VS0,VE1673' }
+48 verbose request invalidating /Users/Alexandr/.npm/registry.npmjs.org/_40lotoss_252fbrain-games on PUT
+49 error publish Failed PUT 403
+50 verbose stack Error: You cannot publish over the previously published version 0.0.1. : @lotoss/brain-games
+50 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+50 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:292:14)
+50 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+50 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+50 verbose stack     at emitTwo (events.js:106:13)
+50 verbose stack     at Request.emit (events.js:191:7)
+50 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+50 verbose stack     at emitOne (events.js:96:13)
+50 verbose stack     at Request.emit (events.js:188:7)
+50 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+51 verbose statusCode 403
+52 verbose pkgid @lotoss/brain-games
+53 verbose cwd /Users/Alexandr/development/hexlet/brain-games
+54 error Darwin 17.3.0
+55 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+56 error node v6.9.1
+57 error npm  v4.1.2
+58 error code E403
+59 error You cannot publish over the previously published version 0.0.1. : @lotoss/brain-games
+60 error If you need help, you may report this error at:
+60 error     <https://github.com/npm/npm/issues>
+61 verbose exit [ 1, true ]
