@@ -4,4 +4,5 @@ language: node_js
 node_js:
   - stable
 
+inslall: npm install 
 script: make lint test
