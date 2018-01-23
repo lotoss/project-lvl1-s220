@@ -6,7 +6,7 @@
   "scripts": {
     "babel-node": "babel-node",
     "build": "NODE_ENV=production babel src --out-dir dist --sourse-maps inline",
-    "test": "",
+    "test": "echo \"No test specified\" && exit 0",
     "prepublishOnly": "npm run build",
     "eslint": "eslint"
   },
