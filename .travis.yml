@@ -4,5 +4,5 @@ language: node_js
 node_js:
   - v8.9.4
 
-inslall: npm install
-script: make lint test
+
+script: make lint
