@@ -12,6 +12,8 @@ const isCorrect = (number, answer) => (isEven(number) && answer === 'yes') || (!
 export default () => {
   const name = greating();
 
+  console.log('Answer "yes" if number even otherwise answer "no".');
+
   const game = (attemptCount) => {
     if (attemptCount <= 0) {
       console.log(`Congratulations, ${name}!`);
