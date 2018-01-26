@@ -32,7 +32,7 @@ export default ({ text, game }) => {
     }
 
     console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'. \nLet's try again, ${name}!`);
-    gameIter(attemptCount - 1, ...game());
+    gameIter(attemptCount, ...game());
   };
 
   gameIter(ATTEMPT_COUNT, ...game());
