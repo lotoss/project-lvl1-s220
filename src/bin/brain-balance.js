@@ -1,4 +1,4 @@
-#! /urs/bin/env node
+#! /usr/bin/env node
 import core from '..';
 import balance from '../games/balance';
 
