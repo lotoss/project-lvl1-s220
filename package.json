@@ -1,6 +1,6 @@
 {
   "name": "@lotoss/brain-games",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "eslint": "eslint"
   },
   "bin": {
+    "brain-progression": "dist/bin/brain-progression.js",
     "brain-games": "dist/bin/brain-games.js",
     "brain-balance": "dist/bin/brain-balance.js",
     "brain-even": "dist/bin/brain-even.js",
