@@ -1,4 +1,4 @@
 #! /usr/bin/env node
-import index from '..';
+import core from '..';
 
-index();
+core();
