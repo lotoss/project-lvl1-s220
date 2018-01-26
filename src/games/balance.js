@@ -24,6 +24,3 @@ export default {
   text: 'Balance the given number.',
   game,
 };
-
-console.log(balance(1234));
-console.log(balance(3233));
