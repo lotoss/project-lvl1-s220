@@ -1,4 +1,6 @@
-const random = (from, to) => Math.round(Math.random() * (to - from)) + from;
+import utils from '../utils';
+
+const { random } = utils;
 
 const PLUS_OPERATION = 0;
 const MINUS_OPERATION = 1;
