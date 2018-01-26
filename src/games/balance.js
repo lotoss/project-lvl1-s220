@@ -21,7 +21,7 @@ const game = () => {
 };
 
 export default {
-  text: '',
+  text: 'Balance the given number.',
   game,
 };
 
